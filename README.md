@@ -4,6 +4,8 @@ A Retrieval-Augmented Generation (RAG) system that answers questions from PDF do
 and cites the source file and page number. If the answer is not in the documents,
 it says so instead of guessing.
 
+**Live demo:** [Try the app here](https://rag-study-assistant-8ukjtdmp54we9gzubjhnen.streamlit.app)
+
 ## How it works
 PDFs -> Chunking -> Embeddings -> Vector DB (ChromaDB)
 Question -> Embedding -> Top-k similar chunks -> Prompt -> Gemini LLM -> Answer + sources
