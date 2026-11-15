@@ -19,6 +19,7 @@ Python, LangChain, ChromaDB, Sentence-Transformers (all-MiniLM-L6-v2), Google Ge
 - Answers grounded in retrieved context, with source and page citations
 - Refuses questions that are not in the documents (reduces hallucination)
 - Retry with backoff, request timeout and model fallback for API errors (503/429)
+-  Streamlit web app with chat interface and upload-your-own-PDFs support
 
 ## Results
 Small sanity-check evaluation on 7 questions (5 answerable, 2 out-of-scope):
